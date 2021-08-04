@@ -1,4 +1,6 @@
 import numpy 
 
-def velocity():
+a=-10
+
+def velocity(v0,t):
     v= v0 + a*t
