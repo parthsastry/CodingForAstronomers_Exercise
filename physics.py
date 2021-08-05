@@ -12,7 +12,7 @@ def plot_velocity(v0, a, t):
     # assumes t is a list/array of time values, plots velocity as a function of time.
     v = velocity(v0, a, t)
     plt.figure()
-    plt.plot(t, v, 'r')
+    plt.scatter(t, v)
     plt.title('Velocity vs Time plot')
     plt.xlabel("Time")
     plt.ylabel("Velocity")
