@@ -12,3 +12,7 @@ This is a solution to the exercise posed as part of the collaborative coding wor
 
 > - [Parth Sastry](https://github.com/parthsastry)
 > - [Abhijeet Ghodgaonkar](https://github.com/abunickabhi)
+
+
+![astronomers](https://user-images.githubusercontent.com/30502703/128455438-27723fc6-e74f-4306-bbe7-acabb3af4d92.png)
+
