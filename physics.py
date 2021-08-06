@@ -16,19 +16,18 @@ def plot_velocity(v0, a, t):
     v = velocity(v0, a, t)
     plt.figure()
     plt.scatter(t, v)
-    plt.title('Velocity vs Time plot')
-    plt.xlabel("Time")
-    plt.ylabel("Velocity")
+    #plt.title('Velocity vs Time plot')
+    #plt.xlabel("Time")
+    #plt.ylabel("Velocity")
     plt.grid()
     return
 
 def plot_displacement(s0, a, t):
     s = displacement(s0, a, t)
     plt.scatter(t, s, c='r')
-    plt.title('Displacement vs Time plot')
-    plt.ylabel("Displacement")
-    plt.xlabel("Time")
-    plt.show()
+    #plt.title('Displacement vs Time plot')
+    #plt.ylabel("Displacement")
+    #plt.xlabel("Time") 
     return 
 
 if __name__ == '__main__':
@@ -41,3 +40,5 @@ if __name__ == '__main__':
     plot_displacement(s0, a, t)
     plt.ylabel('Displacement/Velocity')
     plt.title('Displacement/Velocity vs Time plot')
+    plt.legend([ "Velocity","Displacement"], loc ="lower right")
+    plt.show()
